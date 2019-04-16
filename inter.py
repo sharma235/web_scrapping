@@ -1,6 +1,5 @@
 # This code takes nearly 10 minutes to fetch all the 504 members
 # count is printed to know how many members are fetched
-# Give the input of the depth to start the program
 import pandas as pd  
 import requests
 import bs4
