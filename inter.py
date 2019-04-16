@@ -8,7 +8,6 @@ din = []
 dr_nm = []
 dsg = []
 ap_dt = []
-Depth = int(input())
 req = requests.get('https://www.zaubacorp.com/company/DR-REDDY-S-LABORATORIES-LTD/L85195TG1984PLC004507')
 soup = bs4.BeautifulSoup(req.text,'lxml')
 tables = soup.findAll('table')
